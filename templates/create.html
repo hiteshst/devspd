@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Booking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Create New Booking</h1>
+        <form action="/create" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="check_in_date">Check-in Date:</label>
+            <input type="date" id="check_in_date" name="check_in_date" required>
+
+            <label for="check_out_date">Check-out Date:</label>
+            <input type="date" id="check_out_date" name="check_out_date" required>
+
+            <label for="room_type">Room Type:</label>
+            <select id="room_type" name="room_type" required>
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select>
+
+            <button type="submit">Create Booking</button>
+        </form>
+        <a href="/">Back to Bookings</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    text-align: center;
+    display: block;
+}
+/* Container for the page content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling the table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders into a single border */
+    margin-top: 20px;
+}
+
+/* Table headers */
+th {
+    background-color: #4CAF50;  /* Light green background */
+    color: white;  /* White text */
+    padding: 12px;
+    border: 1px solid #ddd;  /* Border around each header cell */
+    text-align: left;
+}
+
+/* Table data cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;  /* Border around each data cell */
+    text-align: left;
+}
+
+/* Link styling inside the table */
+a {
+    text-decoration: none;
+    color: #007BFF;  /* Blue color for the links */
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #2d2bb6;  /* Darker blue on hover */
+}
+
+/* Add alternating row colors for better readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2;  /* Light grey background for even rows */
+}
+
+tr:hover {
+    background-color: #ddd;  /* Light grey background when hovering over rows */
+}
